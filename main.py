@@ -268,10 +268,8 @@ def main():
         draw_text(screen, f"POINTS: {score}", font_small, WHITE, 20, 20)
         draw_text(screen, f"LEVEL: {level}", font_small, YELLOW, WIDTH - 120, 20)
         draw_text(screen, f"LIVES: {lives}", font_small, RED, WIDTH // 2, 20, center=True)
-        # Actualizar la pantalla
         pygame.display.flip()
 
-    # Salir de Pygame de manera limpia
     pygame.quit()
     sys.exit()
 
